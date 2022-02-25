@@ -1,17 +1,6 @@
 "use strict";
-// 1)
-function getValue() {
-    const link = document.getElementById("w3r");
+// 2)
 
-    const href = link.getAttribute('href');
-    const hreflang = link.getAttribute('hreflang');
-    const rel = link.getAttribute('rel');
-    const target = link.getAttribute('target');
-    const type = link.getAttribute('type');
+const text = document.getElementById("text");
 
-    const result = [href, hreflang, rel, target, type];
-    return result;
-}
-
-const funcResult = getValue();
-console.log(funcResult);
+text.setAttribute('style', 'font-size: 25px; color: pink');
