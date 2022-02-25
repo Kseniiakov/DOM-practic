@@ -14,5 +14,4 @@ function getValue() {
 }
 
 const funcResult = getValue();
-
 console.log(funcResult);
